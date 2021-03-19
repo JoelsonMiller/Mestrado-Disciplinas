@@ -15,9 +15,7 @@ neural = neural_NN.NeuralNetwork(1,10,1)
 
 iteractions = 20000
 
-print("I am here!")
 error = neural.training(trainning_set, iteractions, 0.01)
-print("ok! ")
 
 #print("Erro final da rede: {}".format(error))
 
